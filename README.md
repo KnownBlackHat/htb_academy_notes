@@ -1,5 +1,11 @@
 # HTB ACADEMY Learning Personal Repo
 
+## Recon
+
+```bash
+TARGET=;mkdir nmap;sudo nmap -vvv -A -sV -sC --min-rate=5000 $TARGET -p`sudo nmap -T5 -Pn --min-rate=5000 $TARGET -p-` -oA nmap/$TARGET && xsltproc
+nmap/$TARGET.xml -o nmap/$TARGET.html
+``` 
 
 ## PrivEsc
 
