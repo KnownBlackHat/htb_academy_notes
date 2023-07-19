@@ -37,9 +37,6 @@
 | --------------|-------------------|
 | **Service Scanning** |
 | `nmap 10.129.42.253` | Run nmap on an IP |
-| ```bash
-TARGET=;mkdir nmap;sudo nmap -vvv -A -sV -sC --min-rate=5000 $TARGET -p`sudo nmap -T5 -Pn --min-rate=5000 $TARGET -p-` -oA nmap/$TARGET && xsltproc
-nmap/$TARGET.xml -o nmap/$TARGET.html``` | Advance Nmap Scan |
 | `xsltproc ./10.10.73.217.xml -o 10.10.73.217.html` | Convert XML file into html |
 | `nmap -sV -sC -p- 10.129.42.253` | Run an nmap script scan on an IP |
 | `locate scripts/citrix` | List various available nmap scripts |
