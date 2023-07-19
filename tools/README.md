@@ -37,6 +37,7 @@
 | --------------|-------------------|
 | **Service Scanning** |
 | `nmap 10.129.42.253` | Run nmap on an IP |
+| `xsltproc ./10.10.73.217.xml -o 10.10.73.217.html` | Convert XML file into html |
 | `nmap -sV -sC -p- 10.129.42.253` | Run an nmap script scan on an IP |
 | `locate scripts/citrix` | List various available nmap scripts |
 | `nmap --script smb-os-discovery.nse -p445 10.10.10.40` | Run an nmap script on an IP |
